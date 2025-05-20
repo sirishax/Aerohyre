@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": "531f",
+      "title": "Meeting with Nandan ",
+      "deadline": "2025-05-18T05:32",
+      "priority": "high",
+      "urgencyScore": -10
+    },
+    {
+      "id": "b8ef",
+      "title": "Need to study DSA",
+      "deadline": "2025-05-20T18:31",
+      "priority": "medium",
+      "urgencyScore": 0
+    },
+    {
+      "id": "a1df",
+      "title": "Study GenAI",
+      "deadline": "2025-05-23T03:33",
+      "priority": "low",
+      "urgencyScore": 5
+    },
+    {
+      "id": "9457",
+      "title": "Task Manager Dashboard",
+      "deadline": "2025-05-31T03:33",
+      "priority": "low",
+      "urgencyScore": 10
+    }
+  ]
+}

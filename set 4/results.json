@@ -1,0 +1,30 @@
+{
+  "top_users": [
+    [
+      "user1",
+      19
+    ],
+    [
+      "user2",
+      2
+    ],
+    [
+      "user3",
+      2
+    ],
+    [
+      "user4",
+      1
+    ],
+    [
+      "user5",
+      1
+    ]
+  ],
+  "repeated_actions": [
+    [
+      "user1",
+      "click"
+    ]
+  ]
+}

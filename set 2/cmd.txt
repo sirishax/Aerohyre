@@ -1,0 +1,20 @@
+#create 
+Invoke-WebRequest -Uri "http://localhost:3006/api/bookings" `
+  -Method POST `
+  -Headers @{"Content-Type"="application/json"} `
+  -Body '{"roomId":"101","startTime":"2025-05-20T10:00:00","endTime":"2025-05-20T11:00:00"}'
+
+
+#get available slots 
+Invoke-WebRequest -Uri "http://localhost:3006/api/slots?date=2025-05-20"
+
+
+#update a booking 
+Invoke-WebRequest -Uri "http://localhost:3006/api/bookings/1" `
+  -Method PUT `
+  -Headers @{"Content-Type"="application/json"} `
+  -Body '{"startTime":"2025-05-20T12:00:00","endTime":"2025-05-20T13:00:00"}'
+
+
+#delete a booking 
+Invoke-WebRequest -Uri "http://localhost:3006/api/bookings/1" -Method DELETE
