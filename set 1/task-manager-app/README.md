@@ -39,4 +39,14 @@ The backend server runs on http://localhost:3001 with the following endpoints:
 - PUT /tasks/:id - Update a task
 - DELETE /tasks/:id - Delete a task
 
+##After the Installation
+- First we have to run the backend server by using the below command
+  json-server --watch db.json --port 3001  #make sure to change which ever the port you need both in code and here
+-Secondly do "npm start"
+
+![image](https://github.com/user-attachments/assets/f914518d-3b64-41f4-9a83-900bdc85bf45)
+
+  
+![Screenshot 2025-05-21 084041](https://github.com/user-attachments/assets/6787095a-edb1-45e7-8645-faeb1934575d)
+
 
